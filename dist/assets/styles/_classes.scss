@@ -44,6 +44,7 @@ header {
 }
 
 .content {
+  background-color: $divider-color;
   grid-area: content;
   padding: 20px;
 }
@@ -85,6 +86,11 @@ footer {
     border: 1px solid $primary-color;
     background: white;
     color: $primary-color;
+  }
+
+  &-danger {
+    background-color: $text-error;
+    color: white;
   }
 }
 
