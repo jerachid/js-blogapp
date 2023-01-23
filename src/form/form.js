@@ -4,6 +4,40 @@ const form = document.querySelector("form");
 const errorList = document.querySelector("#errors");
 const cancelBtn = document.querySelector(".btn-secondary");
 
+const initForm = async () => {
+  const params = new URL(location.href); // une querystring
+  const articleId = params.searchParams.get("id"); // on recupere l'id depuis la querystring
+  const submitBtn = document.querySelector(".btn-primary");
+
+  if (articleId) {
+    const response = await fetch(
+      `https://restapi.fr/api/dwwm_rachid/${articleId}`
+    );
+    if (response.status < 299) {
+      const article = await response.json();
+      // on va remplir notre formulaire
+      submitBtn.innerText = "Sauvegarder";
+      fillForm(article);
+    }
+  }
+};
+
+const fillForm = (article) => {
+  const author = document.querySelector('input[name="author"]');
+  const image = document.querySelector('input[name="image"]');
+  const category = document.querySelector('input[name="category"]');
+  const title = document.querySelector('input[name="title"]');
+  const content = document.querySelector("textarea");
+
+  author.value = article.author;
+  image.value = article.image;
+  category.value = article.category;
+  title.value = article.title;
+  content.value = article.content;
+};
+
+initForm();
+
 cancelBtn.addEventListener("click", () => {
   location.assign("./index.html");
 });
