@@ -16,7 +16,14 @@ const displayArticles = (articles) => {
               alt=""
             />
             <h2>${article.title}</h2>
-            <p class="article-author">${article.author}</p>
+            <p class="article-author">${article.author} - <span>
+              ${new Date(article.createdAt).toLocaleDateString("fr-FR", {
+                weekday: "long",
+                day: "2-digit",
+                month: "long",
+                year: "numeric",
+              })}
+            </span> </p>
             <p class="article-content">${article.content}</p>
             <div class="article-actions">
               <button class="btn btn-danger" data-id=${
@@ -57,16 +64,17 @@ const fetchArticles = async () => {
   // fonction asynchrone qui recupere les donnees depuis l'API
   try {
     const response = await fetch("https://restapi.fr/api/dwwm_rachid");
-    const articles = await response.json();
+    let articles = await response.json(); // <=== on change 'const' en 'let'
 
-    if (articles.length !== 0) {
-      if (!articles.length) {
-        displayArticles([articles]);
-      } else {
-        displayArticles(articles);
-      }
+    if (!(articles instanceof Array)) {
+      // si 'articles' n'est pas un tableau
+      articles = [articles]; // on le transforme en tableau
+    }
+
+    if (articles.length) {
+      displayArticles(articles);
     } else {
-      articlesContainer.innerHTML = "<p>Pas d'articles...<p>";
+      articlesContainer.innerHTML = "<p>Pas d'articles pour le moment</p>";
     }
   } catch (error) {
     console.log(error);

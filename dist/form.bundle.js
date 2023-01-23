@@ -592,8 +592,12 @@ __webpack_require__.r(__webpack_exports__);
 
 const form = document.querySelector("form");
 const errorList = document.querySelector("#errors");
-let errors = [];
+const cancelBtn = document.querySelector(".btn-secondary");
+cancelBtn.addEventListener("click", () => {
+  location.assign("./index.html");
+});
 const formIsValid = data => {
+  let errors = [];
   if (!data.author || !data.category || !data.content || !data.title) {
     errors.push("Vous devez renseigner tous les champs");
   }
@@ -626,8 +630,10 @@ form.addEventListener("submit", async event => {
         },
         body: json
       });
-      const body = await response.json(); // j'attends que json me renvoie le body de la response
-      form.reset();
+      if (response.status < 299) {
+        // une redirection vers la page d'accueil
+        location.assign("./index.html");
+      }
       console.log(body);
     } catch (error) {
       console.log(error);
