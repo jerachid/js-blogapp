@@ -2,19 +2,19 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/form/form.scss":
-/*!*********************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/form/form.scss ***!
-  \*********************************************************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/assets/styles/style.scss":
+/*!*******************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/assets/styles/style.scss ***!
+  \*******************************************************************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/sourceMaps.js */ "./node_modules/css-loader/dist/runtime/sourceMaps.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/sourceMaps.js */ "./node_modules/css-loader/dist/runtime/sourceMaps.js");
 /* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
 // Imports
 
@@ -22,7 +22,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap);"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".content {\n  display: flex;\n  flex-direction: row;\n  justify-content: center;\n  align-items: center;\n}\n.content form {\n  background-color: white;\n  width: 700px;\n  padding: 4rem;\n  box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);\n  border-radius: 5px;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: flex-start;\n}\n@media (max-width: 480px) {\n  .content form {\n    width: 100%;\n  }\n}\n@media (max-width: 768px) {\n  .content form {\n    width: 100%;\n  }\n}\n.content form h2 {\n  width: 100%;\n}\n.content form .form-group {\n  width: 100%;\n  margin-bottom: 2rem;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: flex-start;\n}\n.content form .form-group label {\n  font-size: 1.8rem;\n  color: #2c3e50;\n  font-weight: 700;\n  margin-bottom: 1rem;\n}\n.content form .form-group input,\n.content form .form-group textarea {\n  width: 100%;\n  border: 1px solid #ecf0f1;\n  outline: none;\n  font-size: 1.8rem;\n  border-radius: 3px;\n}\n.content form .form-group input:focus,\n.content form .form-group textarea:focus {\n  border-color: #2ecc71;\n}\n.content form .form-group input {\n  padding: 5px 10px;\n}\n.content form .form-group textarea {\n  min-height: 20rem;\n  padding: 10px;\n}\n.content form .form-btn-container {\n  width: 100%;\n  display: flex;\n  flex-direction: row;\n  justify-content: flex-end;\n  align-items: center;\n}\n.content form .form-btn-container .btn {\n  margin-left: 1rem;\n}", "",{"version":3,"sources":["webpack://./src/form/form.scss","webpack://./src/assets/styles/_mixins.scss","webpack://./src/assets/styles/_variables.scss"],"names":[],"mappings":"AAGA;ECsBI,aAAA;EACA,mBAFoB;EAGpB,uBAHmC;EAInC,mBAJmD;ADlBvD;AAAE;EACE,uBAAA;EACA,YAAA;EACA,aAAA;EACA,mFEDS;EFET,kBAAA;ECcA,aAAA;EACA,sBDbc;ECcd,uBAHmC;EAInC,uBDf8B;AAIlC;AChBI;EDKF;IAUI,WAAA;EAKJ;AACF;ACfI;EDDF;IAcI,WAAA;EAMJ;AACF;AAJI;EACE,WAAA;AAMN;AAHI;EACE,WAAA;EACA,mBAAA;ECJF,aAAA;EACA,sBDKgB;ECJhB,uBAHmC;EAInC,uBDGgC;AAOpC;AALM;EACE,iBAAA;EACA,cE/BO;EFgCP,gBAAA;EACA,mBAAA;AAOR;AAJM;;EAEE,WAAA;EACA,yBAAA;EACA,aAAA;EACA,iBAAA;EACA,kBAAA;AAMR;AAJQ;;EACE,qBE/CM;AFsDhB;AAHM;EACE,iBAAA;AAKR;AAFM;EACE,iBAAA;EACA,aAAA;AAIR;AAAI;EACE,WAAA;ECvCF,aAAA;EACA,mBAFoB;EAGpB,yBDuC0B;ECtC1B,mBAJmD;AD8CvD;AAFM;EACE,iBAAA;AAIR","sourcesContent":["@import \"../assets/styles/variables\";\n@import \"../assets/styles/mixins\";\n\n.content {\n  @include flex;\n\n  form {\n    background-color: white;\n    width: 700px;\n    padding: 4rem;\n    box-shadow: $box-shadow;\n    border-radius: 5px;\n\n    @include flex(column, $align: flex-start);\n\n    @include xs {\n      width: 100%;\n    }\n\n    @include sm {\n      width: 100%;\n    }\n\n    h2 {\n      width: 100%;\n    }\n\n    .form-group {\n      width: 100%;\n      margin-bottom: 2rem;\n\n      @include flex(column, $align: flex-start);\n\n      label {\n        font-size: 1.8rem;\n        color: $accent-color;\n        font-weight: 700;\n        margin-bottom: 1rem;\n      }\n\n      input,\n      textarea {\n        width: 100%;\n        border: 1px solid $divider-color;\n        outline: none;\n        font-size: 1.8rem;\n        border-radius: 3px;\n\n        &:focus {\n          border-color: $primary-color;\n        }\n      }\n\n      input {\n        padding: 5px 10px;\n      }\n\n      textarea {\n        min-height: 20rem;\n        padding: 10px;\n      }\n    }\n\n    .form-btn-container {\n      width: 100%;\n\n      @include flex($justify: flex-end);\n\n      .btn {\n        margin-left: 1rem;\n      }\n    }\n  }\n}\n","@mixin xs {\n    @media (max-width: $screen-xs) {\n        @content;\n    }\n}\n\n@mixin sm {\n    @media (max-width: $screen-sm) {\n        @content;\n    }\n}\n\n@mixin md {\n    @media (min-width: $screen-sm) and (max-width: $screen-md) {\n        @content;\n    }\n}\n\n@mixin xl {\n    @media (min-width: $screen-xl) {\n        @content;\n    }\n}\n\n@mixin flex($direction: row, $justify: center, $align: center) {\n    display: flex;\n    flex-direction: $direction;\n    justify-content: $justify;\n    align-items: $align;\n}","@import url(\"https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap\");\n\n$primary-color: #2ecc71;\n$primary-color-dark: #27ae60;\n$accent-color: #2c3e50;\n$text-color: #333;\n$text-error: #e74c3c;\n$divider-color: #ecf0f1;\n$font-family: \"Mulish\", sans-serif;\n$box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3),\n  0 1px 3px 1px rgba(60, 64, 67, 0.15);\n$screen-xs: 480px;\n$screen-sm: 768px;\n$screen-md: 979px;\n$screen-xl: 1200px;\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n\n:root {\n  font-size: 62.5%;\n}\n\nbody {\n  font-size: 1.6rem;\n  color: #333;\n  font-family: \"Mulish\", sans-serif;\n}\n\nh1, h2, h3, h4 {\n  margin-bottom: 2rem;\n}\n\nh1 {\n  font-size: 3.5rem;\n}\n\nh2 {\n  font-size: 3rem;\n}\n\nh3 {\n  font-size: 2.5rem;\n}\n\nh4 {\n  font-size: 2rem;\n}\n\nul {\n  list-style: none;\n}\n\nimg {\n  max-width: 100%;\n}\n\na {\n  color: #333;\n  text-decoration: none;\n}\n\n.container {\n  min-height: 100vh;\n  display: grid;\n  grid: \"header\" auto \"content\" 1fr \"footer\" auto/auto;\n}\n\nheader {\n  grid-area: header;\n  box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);\n  padding: 20px;\n  background-color: #27ae60;\n  display: flex;\n  flex-direction: row;\n  justify-content: space-between;\n  align-items: center;\n}\nheader a {\n  color: white;\n}\nheader .header-brand {\n  font-size: 4rem;\n  font-weight: 700;\n}\nheader ul {\n  display: flex;\n  flex-direction: row;\n  justify-content: center;\n  align-items: center;\n}\nheader ul li .header-nav {\n  font-size: 1.8rem;\n  padding: 10px 15px;\n}\nheader ul li .active {\n  font-weight: 700;\n  border: 1px solid #2c3e50;\n  border-radius: 25px;\n}\n\n.content {\n  background-color: #ecf0f1;\n  grid-area: content;\n  padding: 20px;\n}\n\nfooter {\n  grid-area: footer;\n  background: #333;\n  padding: 20px;\n  color: white;\n  display: flex;\n  flex-direction: row;\n  justify-content: center;\n  align-items: center;\n}\n\n.title-underline {\n  padding-bottom: 2rem;\n  border-bottom: 1px solid #ecf0f1;\n}\n\n.btn {\n  border: none;\n  border-radius: 5px;\n  padding: 1rem 2rem;\n  font-weight: 700;\n  cursor: pointer;\n}\n.btn:hover {\n  box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);\n  transition: box-shadow 0.3s;\n}\n.btn-primary {\n  background-color: #2ecc71;\n  color: white;\n}\n.btn-secondary {\n  border: 1px solid #2ecc71;\n  background: white;\n  color: #2ecc71;\n}\n.btn-danger {\n  background-color: #e74c3c;\n  color: white;\n}\n\n.text-error {\n  color: #e74c3c;\n}", "",{"version":3,"sources":["webpack://./src/assets/styles/_reset.scss","webpack://./src/assets/styles/style.scss","webpack://./src/assets/styles/_base.scss","webpack://./src/assets/styles/_variables.scss","webpack://./src/assets/styles/_classes.scss","webpack://./src/assets/styles/_mixins.scss"],"names":[],"mappings":"AAAA;EACI,SAAA;EACA,UAAA;EACA,sBAAA;ACEJ;;ACLA;EACI,gBAAA;ADQJ;;ACLA;EACI,iBAAA;EACA,WCDS;EDET,iCCCU;AFOd;;ACLA;EACI,mBAAA;ADQJ;;ACFI;EACI,iBAJQ;ADShB;;ACNI;EACI,eAJQ;ADahB;;ACVI;EACI,iBAJQ;ADiBhB;;ACdI;EACI,eAJQ;ADqBhB;;ACbA;EACI,gBAAA;ADgBJ;;ACbA;EACI,eAAA;ADgBJ;;ACbA;EACI,WC1BS;ED2BT,qBAAA;ADgBJ;;AGhDA;EACE,iBAAA;EACA,aAAA;EACA,oDACE;AHkDJ;;AG5CA;EACE,iBAAA;EACA,mFDHW;ECIX,aAAA;EACA,yBDXmB;EEsBjB,aAAA;EACA,mBAFoB;EAGpB,8BDXsB;ECYtB,mBAJmD;AJyCvD;AG/CE;EACE,YAAA;AHiDJ;AG9CE;EACE,eAAA;EACA,gBAAA;AHgDJ;AG7CE;ECFE,aAAA;EACA,mBAFoB;EAGpB,uBAHmC;EAInC,mBAJmD;AJsDvD;AG/CM;EACE,iBAAA;EACA,kBAAA;AHiDR;AG9CM;EACE,gBAAA;EACA,yBAAA;EACA,mBAAA;AHgDR;;AG1CA;EACE,yBDvCc;ECwCd,kBAAA;EACA,aAAA;AH6CF;;AG1CA;EACE,iBAAA;EACA,gBDhDW;ECiDX,aAAA;EACA,YAAA;EC9BE,aAAA;EACA,mBAFoB;EAGpB,uBAHmC;EAInC,mBAJmD;AJgFvD;;AG3CE;EACE,oBAAA;EACA,gCAAA;AH8CJ;;AG1CA;EACE,YAAA;EACA,kBAAA;EACA,kBAAA;EACA,gBAAA;EACA,eAAA;AH6CF;AG3CE;EACE,mFDlES;ECmET,2BAAA;AH6CJ;AG1CE;EACE,yBD9EY;EC+EZ,YAAA;AH4CJ;AGzCE;EACE,yBAAA;EACA,iBAAA;EACA,cDrFY;AFgIhB;AGxCE;EACE,yBDrFS;ECsFT,YAAA;AH0CJ;;AGtCA;EACE,cD3FW;AFoIb","sourcesContent":["* {\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box;\n}","@import url(\"https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap\");\n* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n\n:root {\n  font-size: 62.5%;\n}\n\nbody {\n  font-size: 1.6rem;\n  color: #333;\n  font-family: \"Mulish\", sans-serif;\n}\n\nh1, h2, h3, h4 {\n  margin-bottom: 2rem;\n}\n\nh1 {\n  font-size: 3.5rem;\n}\n\nh2 {\n  font-size: 3rem;\n}\n\nh3 {\n  font-size: 2.5rem;\n}\n\nh4 {\n  font-size: 2rem;\n}\n\nul {\n  list-style: none;\n}\n\nimg {\n  max-width: 100%;\n}\n\na {\n  color: #333;\n  text-decoration: none;\n}\n\n.container {\n  min-height: 100vh;\n  display: grid;\n  grid: \"header\" auto \"content\" 1fr \"footer\" auto/auto;\n}\n\nheader {\n  grid-area: header;\n  box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);\n  padding: 20px;\n  background-color: #27ae60;\n  display: flex;\n  flex-direction: row;\n  justify-content: space-between;\n  align-items: center;\n}\nheader a {\n  color: white;\n}\nheader .header-brand {\n  font-size: 4rem;\n  font-weight: 700;\n}\nheader ul {\n  display: flex;\n  flex-direction: row;\n  justify-content: center;\n  align-items: center;\n}\nheader ul li .header-nav {\n  font-size: 1.8rem;\n  padding: 10px 15px;\n}\nheader ul li .active {\n  font-weight: 700;\n  border: 1px solid #2c3e50;\n  border-radius: 25px;\n}\n\n.content {\n  background-color: #ecf0f1;\n  grid-area: content;\n  padding: 20px;\n}\n\nfooter {\n  grid-area: footer;\n  background: #333;\n  padding: 20px;\n  color: white;\n  display: flex;\n  flex-direction: row;\n  justify-content: center;\n  align-items: center;\n}\n\n.title-underline {\n  padding-bottom: 2rem;\n  border-bottom: 1px solid #ecf0f1;\n}\n\n.btn {\n  border: none;\n  border-radius: 5px;\n  padding: 1rem 2rem;\n  font-weight: 700;\n  cursor: pointer;\n}\n.btn:hover {\n  box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);\n  transition: box-shadow 0.3s;\n}\n.btn-primary {\n  background-color: #2ecc71;\n  color: white;\n}\n.btn-secondary {\n  border: 1px solid #2ecc71;\n  background: white;\n  color: #2ecc71;\n}\n.btn-danger {\n  background-color: #e74c3c;\n  color: white;\n}\n\n.text-error {\n  color: #e74c3c;\n}",":root {\n    font-size: 62.5%;\n}\n\nbody {\n    font-size: 1.6rem;\n    color: $text-color;\n    font-family: $font-family;\n}\n\nh1, h2, h3, h4 {\n    margin-bottom: 2rem;\n}\n\n$sizes-titles : (1, 3.5rem), (2, 3rem), (3, 2.5rem), (4, 2rem);\n\n@each $title, $font-size in $sizes-titles {\n    h#{$title} {\n        font-size: $font-size;\n    }\n}\n\nul {\n    list-style: none;\n}\n\nimg {\n    max-width: 100%;\n}\n\na {\n    color: $text-color;\n    text-decoration: none;\n}","@import url(\"https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap\");\n\n$primary-color: #2ecc71;\n$primary-color-dark: #27ae60;\n$accent-color: #2c3e50;\n$text-color: #333;\n$text-error: #e74c3c;\n$divider-color: #ecf0f1;\n$font-family: \"Mulish\", sans-serif;\n$box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3),\n  0 1px 3px 1px rgba(60, 64, 67, 0.15);\n$screen-xs: 480px;\n$screen-sm: 768px;\n$screen-md: 979px;\n$screen-xl: 1200px;\n",".container {\n  min-height: 100vh;\n  display: grid;\n  grid:\n    \"header\" auto\n    \"content\" 1fr\n    \"footer\" auto /\n    auto;\n}\n\nheader {\n  grid-area: header;\n  box-shadow: $box-shadow;\n  padding: 20px;\n  background-color: $primary-color-dark;\n\n  @include flex($justify: space-between);\n\n  a {\n    color: white;\n  }\n\n  .header-brand {\n    font-size: 4rem;\n    font-weight: 700;\n  }\n\n  ul {\n    @include flex;\n\n    li {\n      .header-nav {\n        font-size: 1.8rem;\n        padding: 10px 15px;\n      }\n\n      .active {\n        font-weight: 700;\n        border: 1px solid $accent-color;\n        border-radius: 25px;\n      }\n    }\n  }\n}\n\n.content {\n  background-color: $divider-color;\n  grid-area: content;\n  padding: 20px;\n}\n\nfooter {\n  grid-area: footer;\n  background: $text-color;\n  padding: 20px;\n  color: white;\n\n  @include flex;\n}\n\n.title {\n  &-underline {\n    padding-bottom: 2rem;\n    border-bottom: 1px solid $divider-color;\n  }\n}\n\n.btn {\n  border: none;\n  border-radius: 5px;\n  padding: 1rem 2rem;\n  font-weight: 700;\n  cursor: pointer;\n\n  &:hover {\n    box-shadow: $box-shadow;\n    transition: box-shadow 0.3s;\n  }\n\n  &-primary {\n    background-color: $primary-color;\n    color: white;\n  }\n\n  &-secondary {\n    border: 1px solid $primary-color;\n    background: white;\n    color: $primary-color;\n  }\n\n  &-danger {\n    background-color: $text-error;\n    color: white;\n  }\n}\n\n.text-error {\n  color: $text-error;\n}\n","@mixin xs {\n    @media (max-width: $screen-xs) {\n        @content;\n    }\n}\n\n@mixin sm {\n    @media (max-width: $screen-sm) {\n        @content;\n    }\n}\n\n@mixin md {\n    @media (min-width: $screen-sm) and (max-width: $screen-md) {\n        @content;\n    }\n}\n\n@mixin xl {\n    @media (min-width: $screen-xl) {\n        @content;\n    }\n}\n\n@mixin flex($direction: row, $justify: center, $align: center) {\n    display: flex;\n    flex-direction: $direction;\n    justify-content: $justify;\n    align-items: $align;\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -148,29 +148,29 @@ module.exports = function (item) {
 
 /***/ }),
 
-/***/ "./src/form/form.scss":
-/*!****************************!*\
-  !*** ./src/form/form.scss ***!
-  \****************************/
+/***/ "./src/assets/styles/style.scss":
+/*!**************************************!*\
+  !*** ./src/assets/styles/style.scss ***!
+  \**************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
 /* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/styleDomAPI.js */ "./node_modules/style-loader/dist/runtime/styleDomAPI.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/styleDomAPI.js */ "./node_modules/style-loader/dist/runtime/styleDomAPI.js");
 /* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/insertBySelector.js */ "./node_modules/style-loader/dist/runtime/insertBySelector.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/insertBySelector.js */ "./node_modules/style-loader/dist/runtime/insertBySelector.js");
 /* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js */ "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js */ "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js");
 /* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/insertStyleElement.js */ "./node_modules/style-loader/dist/runtime/insertStyleElement.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/insertStyleElement.js */ "./node_modules/style-loader/dist/runtime/insertStyleElement.js");
 /* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/styleTagTransform.js */ "./node_modules/style-loader/dist/runtime/styleTagTransform.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/styleTagTransform.js */ "./node_modules/style-loader/dist/runtime/styleTagTransform.js");
 /* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_form_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./form.scss */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/form/form.scss");
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_style_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/sass-loader/dist/cjs.js!./style.scss */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/assets/styles/style.scss");
 
       
       
@@ -192,12 +192,12 @@ options.setAttributes = (_node_modules_style_loader_dist_runtime_setAttributesWi
 options.domAPI = (_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default());
 options.insertStyleElement = (_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default());
 
-var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_form_scss__WEBPACK_IMPORTED_MODULE_6__["default"], options);
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_style_scss__WEBPACK_IMPORTED_MODULE_6__["default"], options);
 
 
 
 
-       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_form_scss__WEBPACK_IMPORTED_MODULE_6__["default"] && _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_form_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals ? _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_form_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals : undefined);
+       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_style_scss__WEBPACK_IMPORTED_MODULE_6__["default"] && _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_style_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals ? _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_style_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals : undefined);
 
 
 /***/ }),
@@ -584,105 +584,14 @@ module.exports = styleTagTransform;
 var __webpack_exports__ = {};
 // This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
 (() => {
-/*!**************************!*\
-  !*** ./src/form/form.js ***!
-  \**************************/
+/*!******************************************!*\
+  !*** ./src/assets/javascripts/topbar.js ***!
+  \******************************************/
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _form_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./form.scss */ "./src/form/form.scss");
+/* harmony import */ var _styles_style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../styles/style.scss */ "./src/assets/styles/style.scss");
 
-const form = document.querySelector("form");
-const errorList = document.querySelector("#errors");
-const cancelBtn = document.querySelector(".btn-secondary");
-let articleId;
-const initForm = async () => {
-  const params = new URL(location.href); // une querystring
-  articleId = params.searchParams.get("id"); // on recupere l'id depuis la querystring
-  const submitBtn = document.querySelector(".btn-primary");
-  if (articleId) {
-    const response = await fetch(`https://restapi.fr/api/dwwm_rachid/${articleId}`);
-    if (response.status < 299) {
-      const article = await response.json();
-      // on va remplir notre formulaire
-      submitBtn.innerText = "Sauvegarder";
-      fillForm(article);
-    }
-  }
-};
-const fillForm = article => {
-  const author = document.querySelector('input[name="author"]');
-  const image = document.querySelector('input[name="image"]');
-  const category = document.querySelector('input[name="category"]');
-  const title = document.querySelector('input[name="title"]');
-  const content = document.querySelector("textarea");
-  author.value = article.author;
-  image.value = article.image;
-  category.value = article.category;
-  title.value = article.title;
-  content.value = article.content;
-};
-initForm();
-cancelBtn.addEventListener("click", () => {
-  location.assign("./index.html");
-});
-const formIsValid = data => {
-  let errors = [];
-  if (!data.author || !data.category || !data.content || !data.title) {
-    errors.push("Vous devez renseigner tous les champs");
-  }
-  if (errors.length) {
-    // si qqchose, renvoie true
-    let errorHtml = "";
-    errors.forEach(error => {
-      errorHtml += `<li>${error}</li>`;
-    });
-    errorList.innerHTML = errorHtml;
-    return false;
-  } else {
-    errorList.innerHTML = "";
-    return true;
-  }
-};
-form.addEventListener("submit", async event => {
-  event.preventDefault();
-  const formData = new FormData(form);
-  const entries = formData.entries();
-  const data = Object.fromEntries(entries); // conversion en un objet
-
-  if (formIsValid(data)) {
-    try {
-      const json = JSON.stringify(data);
-      let response;
-      if (articleId) {
-        // j'enregistre la modification de mon article
-        response = await fetch("https://restapi.fr/api/dwwm_rachid", {
-          method: "PATCH",
-          headers: {
-            "Content-Type": "application/json"
-          },
-          body: json
-        });
-      } else {
-        // sinon je creer un nouvel article
-        response = await fetch("https://restapi.fr/api/dwwm_rachid", {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json"
-          },
-          body: json
-        });
-      }
-      if (response.status < 299) {
-        // une redirection vers la page d'accueil
-        location.assign("./index.html");
-      }
-      console.log(body);
-    } catch (error) {
-      console.log(error);
-    }
-  }
-});
 })();
 
 /******/ })()
 ;
-//# sourceMappingURL=form.bundle.js.map
+//# sourceMappingURL=topbar.bundle.js.map

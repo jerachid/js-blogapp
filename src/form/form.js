@@ -3,10 +3,11 @@ import "./form.scss";
 const form = document.querySelector("form");
 const errorList = document.querySelector("#errors");
 const cancelBtn = document.querySelector(".btn-secondary");
+let articleId;
 
 const initForm = async () => {
   const params = new URL(location.href); // une querystring
-  const articleId = params.searchParams.get("id"); // on recupere l'id depuis la querystring
+  articleId = params.searchParams.get("id"); // on recupere l'id depuis la querystring
   const submitBtn = document.querySelector(".btn-primary");
 
   if (articleId) {
@@ -73,12 +74,23 @@ form.addEventListener("submit", async (event) => {
   if (formIsValid(data)) {
     try {
       const json = JSON.stringify(data);
+      let response;
 
-      const response = await fetch("https://restapi.fr/api/dwwm_rachid", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: json,
-      });
+      if (articleId) {
+        // j'enregistre la modification de mon article
+        response = await fetch("https://restapi.fr/api/dwwm_rachid", {
+          method: "PATCH",
+          headers: { "Content-Type": "application/json" },
+          body: json,
+        });
+      } else {
+        // sinon je creer un nouvel article
+        response = await fetch("https://restapi.fr/api/dwwm_rachid", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: json,
+        });
+      }
 
       if (response.status < 299) {
         // une redirection vers la page d'accueil

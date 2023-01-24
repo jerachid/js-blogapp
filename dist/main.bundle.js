@@ -608,7 +608,7 @@ const displayArticles = articles => {
       month: "long",
       year: "numeric"
     })}
-            </span> </p>
+            </span></p>
             <p class="article-content">${article.content}</p>
             <div class="article-actions">
               <button class="btn btn-primary" data-id=${article._id}>Modifier</button>
