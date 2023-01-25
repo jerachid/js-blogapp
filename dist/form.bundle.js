@@ -597,11 +597,13 @@ let articleId;
 const initForm = async () => {
   const params = new URL(location.href); // une querystring
   articleId = params.searchParams.get("id"); // on recupere l'id depuis la querystring
+  console.log(articleId);
   const submitBtn = document.querySelector(".btn-primary");
   if (articleId) {
     const response = await fetch(`https://restapi.fr/api/dwwm_rachid/${articleId}`);
     if (response.status < 299) {
       const article = await response.json();
+      console.log(article);
       // on va remplir notre formulaire
       submitBtn.innerText = "Sauvegarder";
       fillForm(article);
@@ -611,7 +613,7 @@ const initForm = async () => {
 const fillForm = article => {
   const author = document.querySelector('input[name="author"]');
   const image = document.querySelector('input[name="image"]');
-  const category = document.querySelector('input[name="category"]');
+  const category = document.querySelector('select[name="category"]');
   const title = document.querySelector('input[name="title"]');
   const content = document.querySelector("textarea");
   author.value = article.author;
@@ -654,7 +656,7 @@ form.addEventListener("submit", async event => {
       let response;
       if (articleId) {
         // j'enregistre la modification de mon article
-        response = await fetch("https://restapi.fr/api/dwwm_rachid", {
+        response = await fetch(`https://restapi.fr/api/dwwm_rachid/${articleId}`, {
           method: "PATCH",
           headers: {
             "Content-Type": "application/json"
@@ -675,7 +677,6 @@ form.addEventListener("submit", async event => {
         // une redirection vers la page d'accueil
         location.assign("./index.html");
       }
-      console.log(body);
     } catch (error) {
       console.log(error);
     }
